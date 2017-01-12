@@ -9,3 +9,7 @@ How is the staging area different from the working directory and the repository?
 	The working directory is the 'regular' directory you have access through your 'file explorer' tools.
 	The value of the staging area is related to provide information about what is going on during
 		the commit processes, i.e. which files aren´t commited yet, which files aren´t been managed yet, etc.
+		
+How can you use the staging area to make sure you have one commit per logical change?
+	By using git diff with the right parameters it´s possible to know what files and changes were made in each file and
+	and so we can go back and forth to commit in the 'best practice' way (one commit per logical change).
