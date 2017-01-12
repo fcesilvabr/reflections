@@ -13,3 +13,7 @@ How is the staging area different from the working directory and the repository?
 How can you use the staging area to make sure you have one commit per logical change?
 	By using git diff with the right parameters it´s possible to know what files and changes were made in each file and
 	and so we can go back and forth to commit in the 'best practice' way (one commit per logical change).
+	
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Some examples of using branches are for instance tests with features you´re not certain about yet and
+	any other situation you may think it´s interesting to work with different courses of action.
