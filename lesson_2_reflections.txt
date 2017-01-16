@@ -26,3 +26,6 @@ What is the result of merging two branches together? Why do we represent it in t
 	even alone with a better control for fixes and new features during the development.
 	We use to represent the commits in a diagram using arrows in order to make it easy to identify the parents for the commits and avoid to lose 
 	commits during the merge commands.
+	
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Both have their use and provide information for the developer to decide when using one or another.
